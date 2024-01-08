@@ -1,10 +1,8 @@
 package programacaoestruturada.principaisfuncoes;
 
-import java.util.Scanner;
-import java.util.Locale;
-import java.util.Arrays;
-import java.util.Date;
+import java.util.*;
 import java.text.SimpleDateFormat;
+
 
 public class A03_principaisFuncoes {
     public static void main(String[] args) {
@@ -61,5 +59,21 @@ public class A03_principaisFuncoes {
         String dataFormatada = formato.format(dataAtual);
 
         System.out.println("Data atual: " + dataFormatada);
+
+        // Criando um objeto da classe Random
+        Random gerador = new Random();
+
+        // Gerando números aleatórios
+        int numeroInteiro = gerador.nextInt(); // Gera um número inteiro aleatório
+        double numeroDouble = gerador.nextDouble(); // Gera um número double entre 0.0 e 1.0
+        boolean booleanAleatorio = gerador.nextBoolean(); // Gera um valor booleano aleatório
+
+        // Gerando números dentro de um intervalo específico
+        int numeroIntervalo = gerador.nextInt(100); // Gera um número inteiro entre 0 e 99
+
+        System.out.println("Número inteiro aleatório: " + numeroInteiro);
+        System.out.println("Número double aleatório: " + numeroDouble);
+        System.out.println("Valor booleano aleatório: " + booleanAleatorio);
+        System.out.println("Número entre 0 e 99: " + numeroIntervalo);
     }
 }
