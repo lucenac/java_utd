@@ -4,7 +4,7 @@ import java.util.*;
 import java.text.SimpleDateFormat;
 
 
-public class A03_principaisFuncoes {
+public class PrincipaisFuncoes {
     public static void main(String[] args) {
         // Scanner: usada para receber entrada do usuário
         Scanner scanner = new Scanner(System.in);

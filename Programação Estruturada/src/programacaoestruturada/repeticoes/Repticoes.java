@@ -1,6 +1,6 @@
 package programacaoestruturada.repeticoes;
 
-public class A05_Repticoes {
+public class Repticoes {
     public static void main(String[] args) {
         // Exemplo de while: executa o bloco de código enquanto a condição é verdadeira
         int contador = 0;

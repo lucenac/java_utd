@@ -1,9 +1,9 @@
 package programacaoestruturada.condicionais;
 
-public class A04_Condicionais {
+public class Condicionais {
 
         public static void main(String[] args) {
-            int numero = 20;
+            int numero = 2;
 
             // Exemplo de if: verifica se o número é maior que 10
             if (numero > 10) {

@@ -5,7 +5,7 @@ package programacaoestruturada.variaveis;
  * @version 1.0
  */
 
-public class A01_variaveis { //pascalcase
+public class Variaveis { //pascalcase
     public static void main(String[] args) {
         // Declaração e inicialização de variáveis
         int idade = 25;         // Variável do tipo inteiro

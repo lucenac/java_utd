@@ -1,6 +1,6 @@
 package programacaoestruturada.operadores;
 
-public class A02_operadores {
+public class Operadores {
     public static void main(String[] args) {
         int a = 10;
         int b = 5;
